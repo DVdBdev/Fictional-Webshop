@@ -1,0 +1,89 @@
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul {
+  list-style: none;
+}
+
+.footer {
+  background-color: var(--black);
+  padding: 70px 0;
+}
+
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  font-family: "Orbitron";
+  color: var(--white);
+  text-transform: capitalize;
+  margin-bottom: 30px;
+  font-weight: 500;
+}
+
+.footer-col ul li {
+  margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+  font-size: 16px;
+  font-family: "Orbitron";
+  text-transform: capitalize;
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 300;
+  color: var(--grey);
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: var(--yellow);
+  padding-left: 8px;
+}
+
+.footer-col .socials a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: var(--dark-gray);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: var(--white);
+  transition: all 0.5s ease;
+}
+
+.footer-col .socials a:hover {
+  color: var(--yellow);
+}
+
+.product-container {
+  margin: 0 auto;
+  padding: 15px;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+}
