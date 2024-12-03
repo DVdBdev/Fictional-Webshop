@@ -15,55 +15,7 @@
   box-sizing: border-box;
 }
 
-.all-products {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
 
-.best-sellers-content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.product-card {
-  overflow: hidden;
-  background-color: var(--black);
-  /* color: var(--dark-gray); */
-  text-align: center;
-  width: 240px;
-  height: 300px;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 1.2rem;
-  margin: 2rem;
-  box-shadow: 5px 15px 25px var(--yellow);
-}
-
-.product-card h4,
-.product-card p {
-  color: var(--yellow);
-  font-family: "Orbitron";
-}
-
-.product-card:hover img {
-  scale: 1.1;
-}
-
-.product-card:hover {
-  background-color: var(--dark-gray);
-}
-
-.product-card img {
-  height: 150px;
-  transition: all 0.3s;
-}
 
 input[type="text"],
 select,

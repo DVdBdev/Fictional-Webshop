@@ -15,21 +15,51 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       type="text/css"
     />
+    <!-- HEADER -->
+    <link rel="stylesheet" href="css/header.css" />
+
+    <!-- SHOP -->
+     <link rel="stylesheet" href="css/shop.css">
+
+    <!-- FOOTER -->
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CART LOGIC -->
+     <script src="cart.js" defer></script>
   </head>
   <body>
     <header>
       <a href="index.html" class="header-logo">KeyBoardium</a>
-      <div class="header-right">
+      <section class="header-center">
         <a href="index.html">home</a>
         <a href="shop.html" class="active">shop</a>
         <a href="contact.html">contact</a>
-        <a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
-      </div>
+      </section>
+      <section class="header-right">
+        <button class="icon-button search-button">
+          <i class="fa fa-search"></i>
+        </button>
+        <button class="icon-button wishlist-button">
+          <i class="fa fa-heart"></i>
+        </button>
+        <button class="icon-button cart-button">
+          <i class="fa fa-shopping-cart"></i>
+        </button>
+      </section>
     </header>
     <main>
       <section class="products">
-        <div class="all-products">
-          <div class="product-card">
+
+        <section class="all-products">
+          <section class="product-card">
             <section class="info">
               <img
                 src="images/65pKeyboard-removebg-preview.png"
@@ -38,157 +68,173 @@
               <h4 class="product-title">65% Mechanical Keyboard</h4>
               <p class="product-price">€148</p>
             </section>
-            <a href="product1.html" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
+            <button class="addtocart">
+              <section class="pretext">
+                <i class="fas fa-cart-plus"></i> ADD TO CART
+              </section>
+            </button>
+          </section>
+          <section class="product-card">
             <section class="info">
               <img
-                src="images/placeholder-removebg-preview.png"
+                src="images/VarmiloVictory67-removebg-preview.png"
                 alt="product"
               />
-              <h4 class="product-title">Product name</h4>
-              <p class="product-price">€2</p>
+              <h4 class="product-title">Varmilo Victory 67</h4>
+              <p class="product-price">€229</p>
             </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
+            <button class="addtocart">
+              <section class="pretext">
+                <i class="fas fa-cart-plus"></i> ADD TO CART
+              </section>
+            </button>
+          </section>
+          <section class="product-card">
             <section class="info">
               <img
-                src="images/placeholder-removebg-preview.png"
+                src="images/tokyo_mousepad-removebg-preview.png"
                 alt="product"
               />
-              <h4 class="product-title">
-                Product name this is a product name this is a product name
-              </h4>
-              <p class="product-price">€2</p>
+              <h4 class="product-title">Tokyo Mousepad</h4>
+              <p class="product-price">€30</p>
             </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
+            <button class="addtocart">
+              <section class="pretext">
+                <i class="fas fa-cart-plus"></i> ADD TO CART
+              </section>
+            </button>
+          </section>
+          <section class="product-card">
             <section class="info">
               <img
-                src="images/placeholder-removebg-preview.png"
+                src="images/nuphy-removebg-preview.png"
                 alt="product"
               />
-              <h4 class="product-title">Product name</h4>
-              <p class="product-price">€2</p>
+              <h4 class="product-title">NuPhy Air96 V2</h4>
+              <p class="product-price">€169</p>
             </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
+            <button class="addtocart">
+              <section class="pretext">
+                <i class="fas fa-cart-plus"></i> ADD TO CART
+              </section>
+            </button>
+          </section>
+          <section class="product-card">
             <section class="info">
               <img
-                src="images/placeholder-removebg-preview.png"
+                src="images/nuphy-removebg-preview.png"
                 alt="product"
               />
-              <h4 class="product-title">Product name</h4>
-              <p class="product-price">€2</p>
+              <h4 class="product-title">NuPhy Air96 V2</h4>
+              <p class="product-price">€169</p>
             </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
+            <button class="addtocart">
+              <section class="pretext">
+                <i class="fas fa-cart-plus"></i> ADD TO CART
+              </section>
+            </button>
+          </section>
+          <section class="product-card">
             <section class="info">
               <img
-                src="images/placeholder-removebg-preview.png"
+                src="images/nuphy-removebg-preview.png"
                 alt="product"
               />
-              <h4 class="product-title">Product name</h4>
-              <p class="product-price">€2</p>
+              <h4 class="product-title">NuPhy Air96 V2</h4>
+              <p class="product-price">€169</p>
             </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
+            <button class="addtocart">
+              <section class="pretext">
+                <i class="fas fa-cart-plus"></i> ADD TO CART
+              </section>
+            </button>
+          </section>
+          <section class="product-card">
             <section class="info">
               <img
-                src="images/placeholder-removebg-preview.png"
+                src="images/nuphy-removebg-preview.png"
                 alt="product"
               />
-              <h4 class="product-title">Product name</h4>
-              <p class="product-price">€2</p>
+              <h4 class="product-title">NuPhy Air96 V2</h4>
+              <p class="product-price">€169</p>
             </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
+            <button class="addtocart">
+              <section class="pretext">
+                <i class="fas fa-cart-plus"></i> ADD TO CART
+              </section>
+            </button>
+          </section>
+          <section class="product-card">
             <section class="info">
               <img
-                src="images/placeholder-removebg-preview.png"
+                src="images/nuphy-removebg-preview.png"
                 alt="product"
               />
-              <h4 class="product-title">Product name</h4>
-              <p class="product-price">€2</p>
+              <h4 class="product-title">NuPhy Air96 V2</h4>
+              <p class="product-price">€169</p>
             </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
+            <button class="addtocart">
+              <section class="pretext">
+                <i class="fas fa-cart-plus"></i> ADD TO CART
+              </section>
+            </button>
+          </section>
+          <section class="product-card">
             <section class="info">
               <img
-                src="images/placeholder-removebg-preview.png"
+                src="images/nuphy-removebg-preview.png"
                 alt="product"
               />
-              <h4 class="product-title">Product name</h4>
-              <p class="product-price">€2</p>
+              <h4 class="product-title">NuPhy Air96 V2</h4>
+              <p class="product-price">€169</p>
             </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
+            <button class="addtocart">
+              <section class="pretext">
+                <i class="fas fa-cart-plus"></i> ADD TO CART
+              </section>
+            </button>
+          </section>
+          <section class="product-card">
             <section class="info">
               <img
-                src="images/placeholder-removebg-preview.png"
+                src="images/nuphy-removebg-preview.png"
                 alt="product"
               />
-              <h4 class="product-title">Product name</h4>
-              <p class="product-price">€2</p>
+              <h4 class="product-title">NuPhy Air96 V2</h4>
+              <p class="product-price">€169</p>
             </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
-            <section class="info">
-              <img
-                src="images/placeholder-removebg-preview.png"
-                alt="product"
-              />
-              <h4 class="product-title">Product name</h4>
-              <p class="product-price">€2</p>
-            </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-          <div class="product-card">
-            <section class="info">
-              <img
-                src="images/placeholder-removebg-preview.png"
-                alt="product"
-              />
-              <h4 class="product-title">Product name</h4>
-              <p class="product-price">€2</p>
-            </section>
-            <a href="#" class="product-btn">visit now</a>
-          </div>
-        </div>
+            <button class="addtocart">
+              <section class="pretext">
+                <i class="fas fa-cart-plus"></i> ADD TO CART
+              </section>
+            </button>
+          </section>
+        </section>
       </section>
     </main>
-    <aside class="cart">
-      <h1>CART</h1>
-      <h2>MAYBE START DESIGNING THIS??</h2>
-      <h3>LAZY BUM</h3>
+    <aside>
+      <h1>SHOPPING CART</h1>
+      <ul class="cart-items"></ul>
+      <p class="cart-total">Total: €<span id="cart-total">0</span></p>
     </aside>
     <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col">
+      <section class="container">
+        <section class="row">
+          <section class="footer-col">
             <h4>company</h4>
             <ul>
               <li><a href="index.html">home</a></li>
               <li><a href="#">about us</a></li>
               <li><a href="shop.html">shop</a></li>
             </ul>
-          </div>
-          <div class="footer-col">
+          </section>
+          <section class="footer-col">
             <h4>get help</h4>
             <ul>
               <li><a href="contact.html">get in touch</a></li>
             </ul>
-          </div>
-          <div class="footer-col">
+          </section>
+          <section class="footer-col">
             <h4>online shop</h4>
             <ul>
               <li><a href="#">keyboards</a></li>
@@ -196,18 +242,18 @@
               <li><a href="#">switches</a></li>
               <li><a href="#">accessoires</a></li>
             </ul>
-          </div>
-          <div class="footer-col">
+          </section>
+          <section class="footer-col">
             <h4>follow us</h4>
-            <div class="socials">
+            <section class="socials">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
               <a href="#"><i class="fab fa-x-twitter"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+            </section>
+          </section>
+        </section>
+      </section>
     </footer>
   </body>
 </html>
