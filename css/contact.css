@@ -1,3 +1,91 @@
 main {
-    background-color: var(--black);
+  background-color: var(--black);
+}
+
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--light-yellow);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: "Orbitron";
+  color: var(--yellow);
+}
+
+option {
+  color: var(--black);
+}
+
+textarea {
+  font-family: "Orbitron";
+}
+
+input[type="submit"] {
+  background-color: var(--black);
+  color: var(--yellow);
+  padding: 5px 20px 5px 20px;
+  border: solid var(--yellow);
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Orbitron";
+  transition: transform 0.3s;
+}
+
+input[type="submit"]:hover {
+  transform: scale(1.1);
+}
+
+.container-contact {
+  border-radius: 5px;
+  background-color: var(--black);
+  padding: 20px;
+}
+
+.container-contact form label {
+  font-family: "Orbitron";
+  color: var(--yellow);
+}
+
+#map {
+  height: 400px;
+}
+
+aside p {
+  font-size: 18px;
+  line-height: 27px;
+  text-align: left;
+  font-family: "Orbitron";
+  color: var(--yellow);
+}
+
+aside p a {
+  font-family: "Orbitron";
+  color: var(--yellow);
+}
+
+aside p a:hover {
+  color: var(--yellow);
+}
+
+.contact-aside {
+  background-color: var(--black);
+  padding: 20px;
+}
+
+.contact-aside h1 {
+  font-family: "Orbitron";
+  color: var(--yellow);
+}
+
+.container-contact h1 {
+  font-weight: 300;
+  font-size: 40px;
+  font-family: "Orbitron";
+  color: var(--yellow);
+  letter-spacing: -2px;
 }

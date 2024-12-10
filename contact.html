@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/header.css" />
 
     <!-- MAIN -->
-    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/contact.css" />
 
     <!-- FOOTER -->
     <link rel="stylesheet" href="css/footer.css" />
@@ -67,6 +67,11 @@
       <section class="container-contact">
         <h1>Love to hear from you,<br />Get in touch&#128075;</h1>
         <form action="action_page.php">
+          <label for="who-to-contact">Who do you want to contact?</label>
+          <select name="who-to-contact" id="who-to-contact">
+            <option value="Webdeveloper">Webdeveloper</option>
+            <option value="seller">Seller</option>
+          </select>
           <label for="fname">First Name</label>
           <input
             type="text"
