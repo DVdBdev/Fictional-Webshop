@@ -40,7 +40,6 @@ aside {
   flex-wrap: wrap;
 }
 
-
 .product-card {
   overflow: hidden;
   background-color: var(--black);

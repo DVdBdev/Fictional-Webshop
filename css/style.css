@@ -22,21 +22,24 @@ select,
 textarea {
   width: 100%;
   padding: 12px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--light-yellow);
   border-radius: 4px;
   box-sizing: border-box;
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
+  font-family: "Orbitron";
+  color: var(--yellow);
 }
 
 input[type="submit"] {
-  background-color: #24262b;
-  color: #bbbbbb;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 1.2rem;
+  background-color: var(--black);
+  color: var(--yellow);
+  padding: 5px 20px 5px 20px;
+  border: solid var(--yellow);
+  border-radius: 5px;
   cursor: pointer;
+  font-family: "Orbitron";
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
