@@ -115,6 +115,20 @@ aside {
   color: var(--yellow);
 }
 
+.cart-item-remove {
+  margin-left: 10px;
+  color: var(--yellow);
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Orbitron";
+  transition: all 0.3s;
+}
+
+.cart-item-remove:hover {
+  color: red;
+  text-shadow: 0 0 8px red;
+}
+
 @media (max-width: 768px) {
   body {
     grid-template-areas:
