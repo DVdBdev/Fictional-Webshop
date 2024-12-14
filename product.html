@@ -15,16 +15,43 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       type="text/css"
     />
+
+    <!-- HEADER -->
+    <link rel="stylesheet" href="css/header.css" />
+
+    <!-- MAIN -->
+     <link rel="stylesheet" href="css/product.css">
+
+    <!-- FOOTER -->
+    <link rel="stylesheet" href="css/footer.css" />
+
+    <!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <a href="index.html" class="header-logo">KeyBoardium</a>
-      <div class="header-right">
-        <a href="index.html">home</a>
+      <section class="header-center">
+        <a href="index.html" class="active">home</a>
         <a href="shop.html">shop</a>
-        <a href="#">contact</a>
-        <a href="#"><i class="glyphicon glyphicon-shopping-cart"></i></a>
-      </div>
+        <a href="contact.html">contact</a>
+      </section>
+      <section class="header-right">
+        <button class="icon-button search-button">
+          <i class="fa fa-search"></i>
+        </button>
+        <button class="icon-button wishlist-button">
+          <i class="fa fa-heart"></i>
+        </button>
+        <button class="icon-button cart-button">
+          <i class="fa fa-shopping-cart"></i>
+        </button>
+      </section>
     </header>
     <main>
       <article class="product-container">
@@ -37,54 +64,35 @@
 
         <article class="right-column">
           <section class="product-description">
-            <span>Keyboards</span>
-            <h1>65% Mechanical Keyboard</h1>
-            <p>
-              Dit compacte toetsenbord biedt een perfecte balans tussen
-              functionaliteit en minimalisme. Met hot-swappable switches en
-              RGB-verlichting kun je zowel de switches als de uitstraling
-              volledig naar wens aanpassen. Ideaal voor wie een strak en modern
-              bureau wil zonder in te leveren op prestaties.
-            </p>
-          </section>
-          <section class="switch-config">
-            <span>Switch:</span>
-            <section class="switch-choose">
-              <button>Clicky Blue</button>
-              <button>Linear Red</button>
-              <button>Tactile Brown</button>
-            </section>
+            <span id="product-category">Product category</span>
+            <h1 id="product-name">Product name</h1>
+            <p id="product-descr">This is a very cool product</p>
           </section>
           <section class="productpage-price">
-            <span>€148</span>
-            <a href="#" class="cart-btn">Add to cart</a>
+            <span id="product-price">€148</span>
+            <a href="#" class="wishlist-btn">Add to Wishlist</a>
           </section>
         </article>
       </article>
     </main>
-    <aside class="cart">
-      <h1>CART</h1>
-      <h2>MAYBE START DESIGNING THIS??</h2>
-      <h3>LAZY BUM</h3>
-    </aside>
     <footer class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="footer-col">
+      <section class="container">
+        <section class="row">
+          <section class="footer-col">
             <h4>company</h4>
             <ul>
               <li><a href="index.html">home</a></li>
               <li><a href="#">about us</a></li>
               <li><a href="shop.html">shop</a></li>
             </ul>
-          </div>
-          <div class="footer-col">
+          </section>
+          <section class="footer-col">
             <h4>get help</h4>
             <ul>
-              <li><a href="#">get in touch</a></li>
+              <li><a href="contact.html">get in touch</a></li>
             </ul>
-          </div>
-          <div class="footer-col">
+          </section>
+          <section class="footer-col">
             <h4>online shop</h4>
             <ul>
               <li><a href="#">keyboards</a></li>
@@ -92,18 +100,18 @@
               <li><a href="#">switches</a></li>
               <li><a href="#">accessoires</a></li>
             </ul>
-          </div>
-          <div class="footer-col">
+          </section>
+          <section class="footer-col">
             <h4>follow us</h4>
-            <div class="socials">
+            <section class="socials">
               <a href="#"><i class="fab fa-facebook-f"></i></a>
               <a href="#"><i class="fab fa-x-twitter"></i></a>
               <a href="#"><i class="fab fa-instagram"></i></a>
               <a href="#"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
+            </section>
+          </section>
+        </section>
+      </section>
     </footer>
   </body>
 </html>
