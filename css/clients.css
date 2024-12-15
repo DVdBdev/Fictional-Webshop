@@ -1,0 +1,52 @@
+:root {
+  --white: #ffffff;
+}
+
+body {
+  background-color: var(--black);
+}
+
+.card-container {
+  display: flex;
+  background-color: var(--black);
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 20px;
+  gap: 20px;
+}
+
+.card {
+  background-color: var(--black);
+  width: 200px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 5px 15px 25px var(--yellow);
+  text-align: center;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 1.2em;
+  margin: 10px 0 5px;
+  font-family: "Orbitron";
+  color: var(--white);
+}
+
+.card p {
+  margin: 5px 0;
+  font-family: "Orbitron";
+  color: var(--white);
+}
+
+.card span {
+  color: var(--yellow);
+  font-weight: bold;
+  font-family: "Orbitron";
+}

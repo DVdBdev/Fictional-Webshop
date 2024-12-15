@@ -1,9 +1,11 @@
 .product-container {
   height: 60vh;
+  display: flex;
+  flex-direction: row;
   background-color: var(--black);
 }
 
-.left-column {
+/* .left-column {
   width: 300px;
   position: relative;
 }
@@ -11,14 +13,14 @@
 .right-column {
   width: auto;
   margin-top: 60px;
-}
+} */
 
-.left-column img {
+/* .left-column img {
   width: 100%;
   position: absolute;
   left: 0;
   top: 0;
-}
+} */
 
 .product-details {
   border-bottom: 1px solid var(--yellow);
@@ -61,4 +63,22 @@
   font-family: "Orbitron";
   color: var(--yellow);
   margin-right: 20px;
+}
+
+@media (max-width: 1000px) {
+  .product-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .left-column {
+    width: 100%; /* Full width for smaller screens */
+    position: relative; /* Reset to maintain image positioning */
+  }
+
+  .right-column {
+    width: 100%; /* Full width for smaller screens */
+    margin-top: 20px; /* Add spacing between stacked sections */
+  }
 }
