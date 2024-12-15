@@ -33,6 +33,7 @@
       rel="stylesheet"
     />
     <script defer src="product.js"></script>
+    <script src="wishlist.js" defer></script>
   </head>
   <body>
     <header>
@@ -47,7 +48,7 @@
         <button class="icon-button search-button">
           <i class="fa fa-search"></i>
         </button>
-        <button class="icon-button wishlist-button">
+        <button class="icon-button wishlist-button" id="wishlist-button">
           <i class="fa fa-heart"></i>
         </button>
         <button class="icon-button cart-button">
@@ -69,7 +70,9 @@
           </section>
           <section class="productpage-price">
             <span id="product-price"></span>
-            <a href="#" class="wishlist-btn">Add to Wishlist</a>
+            <a href="#" class="wishlist-btn" id="wishlist-btn"
+              >Add to Wishlist</a
+            >
           </section>
         </article>
       </article>

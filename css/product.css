@@ -66,6 +66,33 @@
   margin-right: 20px;
 }
 
+.wishlist-btn {
+  background-color: var(--black);
+  color: var(--yellow);
+  padding: 5px 20px 5px 20px;
+  border: solid var(--yellow);
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Orbitron";
+  transition: transform 0.3s;
+}
+
+.wishlist-btn:hover {
+  transform: scale(1.1);
+  text-decoration: none;
+  color: var(--yellow);
+}
+
+.wishlist-btn:active,
+.wishlist-btn:focus {
+  text-decoration: none;
+  color: var(--yellow);
+}
+
+.wishlist-active {
+  color: var(--red);
+}
+
 @media (max-width: 1000px) {
   .p-container {
     display: flex;
