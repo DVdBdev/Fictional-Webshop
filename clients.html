@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Document</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <link
@@ -15,11 +15,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
       type="text/css"
     />
+
     <!-- HEADER -->
     <link rel="stylesheet" href="css/header.css" />
-
-    <!-- MAIN -->
-    <link rel="stylesheet" href="css/contact.css" />
 
     <!-- FOOTER -->
     <link rel="stylesheet" href="css/footer.css" />
@@ -31,17 +29,6 @@
       href="https://fonts.googleapis.com/css2?family=Audiowide&family=Orbitron:wght@400..900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin=""
-    />
-    <script
-      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-      crossorigin=""
-    ></script>
   </head>
   <body>
     <header>
@@ -49,8 +36,8 @@
       <section class="header-center">
         <a href="index.html">home</a>
         <a href="shop.html">shop</a>
-        <a href="contact.html" class="active">contact</a>
-        <a href="clients.html">clients</a>
+        <a href="contact.html">contact</a>
+        <a href="clients.html" class="active">clients</a>
       </section>
       <section class="header-right">
         <button class="icon-button search-button">
@@ -64,52 +51,7 @@
         </button>
       </section>
     </header>
-    <main>
-      <section class="container-contact">
-        <h1>Love to hear from you,<br />Get in touch&#128075;</h1>
-        <form action="action_page.php">
-          <label for="who-to-contact">Who do you want to contact?</label>
-          <select name="who-to-contact" id="who-to-contact">
-            <option value="Webdeveloper">Webdeveloper</option>
-            <option value="seller">Seller</option>
-          </select>
-          <label for="fname">First Name</label>
-          <input
-            type="text"
-            id="fname"
-            name="firstname"
-            placeholder="Your name.."
-          />
 
-          <label for="lname">Last Name</label>
-          <input
-            type="text"
-            id="lname"
-            name="lastname"
-            placeholder="Your last name.."
-          />
-
-          <label for="subject">Subject</label>
-          <textarea
-            id="subject"
-            name="subject"
-            placeholder="Write something.."
-            style="height: 200px"
-          ></textarea>
-
-          <input type="submit" value="Submit" />
-        </form>
-      </section>
-    </main>
-    <aside class="contact-aside">
-      <h1>Visit us📍</h1>
-      <p>
-        Ellermanstraat 33, Antwerpen<br />
-        <a href="mailto:onthaal.ell@ap.be"> fake@email.be</a><br />+32 3 220 33
-        00
-      </p>
-      <section id="map"></section>
-    </aside>
     <footer class="footer">
       <section class="container">
         <section class="row">
@@ -148,6 +90,5 @@
         </section>
       </section>
     </footer>
-    <script src="mapScript.js"></script>
   </body>
 </html>
