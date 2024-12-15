@@ -1,6 +1,7 @@
-.product-container {
+.p-container {
   height: 60vh;
   display: flex;
+  padding: 10px 100px;
   flex-direction: row;
   background-color: var(--black);
 }
@@ -66,19 +67,19 @@
 }
 
 @media (max-width: 1000px) {
-  .product-container {
+  .p-container {
     display: flex;
     flex-direction: column;
     height: 100vh;
   }
 
   .left-column {
-    width: 100%; /* Full width for smaller screens */
-    position: relative; /* Reset to maintain image positioning */
+    width: 100%;
+    position: relative;
   }
 
   .right-column {
-    width: 100%; /* Full width for smaller screens */
-    margin-top: 20px; /* Add spacing between stacked sections */
+    width: 100%;
+    margin-top: 20px;
   }
 }

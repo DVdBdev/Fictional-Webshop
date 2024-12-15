@@ -1,7 +1,10 @@
 const cardContainer = document.getElementById("card-container");
+const loader = document.getElementById("loader");
 
 async function fetchRandomUsers() {
   try {
+    loader.style.display = "block";
+    cardContainer.style.display = "none";
     const response = await fetch(
       "https://randomuser.me/api/?results=5&nat=us,gb,ca,au,nz"
     );
@@ -9,6 +12,9 @@ async function fetchRandomUsers() {
     displayUsers(data.results);
   } catch (error) {
     console.error("Error fetching users:", error);
+  } finally {
+    loader.style.display = "none";
+    cardContainer.style.display = "flex";
   }
 }
 

@@ -7,5 +7,11 @@ L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
   attribution:
     '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
 }).addTo(map);
-var marker = L.marker(coordinates).addTo(map);
-marker.bindPopup("<b>KeyBoardium</b>").openPopup();
+var logo = L.icon({
+  iconUrl: "images/logo.png",
+
+  iconSize: [50, 50],
+  iconAnchor: [0, 0],
+  popupAnchor: [-3, -76],
+});
+L.marker(coordinates, { icon: logo }).addTo(map);
